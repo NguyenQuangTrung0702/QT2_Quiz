@@ -42,5 +42,16 @@ namespace quizGame
             FormTaoMaQR form2 = new FormTaoMaQR();
             form2.Show();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FormTaoDeThi form3 = new FormTaoDeThi();
+            form3.Show();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

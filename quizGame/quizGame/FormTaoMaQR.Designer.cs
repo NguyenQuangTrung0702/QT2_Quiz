@@ -33,6 +33,7 @@
             this.txtTaoQR = new System.Windows.Forms.TextBox();
             this.lblNhapDuongLink = new System.Windows.Forms.Label();
             this.pictureTaoQR = new System.Windows.Forms.PictureBox();
+            this.button1 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureTaoQR)).BeginInit();
             this.SuspendLayout();
             // 
@@ -73,15 +74,30 @@
             this.pictureTaoQR.TabIndex = 3;
             this.pictureTaoQR.TabStop = false;
             // 
+            // button1
+            // 
+            this.button1.BackColor = System.Drawing.Color.Aqua;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            this.button1.Location = new System.Drawing.Point(433, 654);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(386, 76);
+            this.button1.TabIndex = 4;
+            this.button1.Text = "Bắt đầu";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FormTaoMaQR
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1217, 824);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.pictureTaoQR);
             this.Controls.Add(this.lblNhapDuongLink);
             this.Controls.Add(this.txtTaoQR);
             this.Controls.Add(this.btnTaoQR);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
             this.Name = "FormTaoMaQR";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Tạo Mã QR";
@@ -97,5 +113,6 @@
         private System.Windows.Forms.TextBox txtTaoQR;
         private System.Windows.Forms.Label lblNhapDuongLink;
         private System.Windows.Forms.PictureBox pictureTaoQR;
+        private System.Windows.Forms.Button button1;
     }
 }

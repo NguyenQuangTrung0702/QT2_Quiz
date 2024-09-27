@@ -86,6 +86,7 @@
             this.lbl2.Size = new System.Drawing.Size(263, 76);
             this.lbl2.TabIndex = 4;
             this.lbl2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl2.Click += new System.EventHandler(this.lbl2_Click);
             // 
             // lbl3
             // 
@@ -141,7 +142,7 @@
             // 
             this.lblTimer.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.lblTimer.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.lblTimer.Font = new System.Drawing.Font("Bernard MT Condensed", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTimer.Font = new System.Drawing.Font("Book Antiqua", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblTimer.Location = new System.Drawing.Point(559, 470);
             this.lblTimer.Name = "lblTimer";
             this.lblTimer.Size = new System.Drawing.Size(100, 76);

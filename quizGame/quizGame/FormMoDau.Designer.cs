@@ -32,7 +32,7 @@
             this.lblWelcome = new System.Windows.Forms.Label();
             this.btnFormMoDau_Start = new System.Windows.Forms.Button();
             this.btnCreateQR = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnTaodethi = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -54,7 +54,7 @@
             // 
             this.btnFormMoDau_Start.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFormMoDau_Start.ForeColor = System.Drawing.Color.Black;
-            this.btnFormMoDau_Start.Location = new System.Drawing.Point(221, 665);
+            this.btnFormMoDau_Start.Location = new System.Drawing.Point(221, 703);
             this.btnFormMoDau_Start.Name = "btnFormMoDau_Start";
             this.btnFormMoDau_Start.Size = new System.Drawing.Size(154, 55);
             this.btnFormMoDau_Start.TabIndex = 2;
@@ -66,7 +66,7 @@
             // 
             this.btnCreateQR.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCreateQR.ForeColor = System.Drawing.Color.Black;
-            this.btnCreateQR.Location = new System.Drawing.Point(424, 665);
+            this.btnCreateQR.Location = new System.Drawing.Point(424, 703);
             this.btnCreateQR.Name = "btnCreateQR";
             this.btnCreateQR.Size = new System.Drawing.Size(154, 55);
             this.btnCreateQR.TabIndex = 4;
@@ -74,27 +74,29 @@
             this.btnCreateQR.UseVisualStyleBackColor = true;
             this.btnCreateQR.Click += new System.EventHandler(this.btnCreateQR_Click);
             // 
-            // button2
+            // btnTaodethi
             // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Black;
-            this.button2.Location = new System.Drawing.Point(627, 665);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(154, 55);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnTaodethi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnTaodethi.ForeColor = System.Drawing.Color.Black;
+            this.btnTaodethi.Location = new System.Drawing.Point(627, 703);
+            this.btnTaodethi.Name = "btnTaodethi";
+            this.btnTaodethi.Size = new System.Drawing.Size(154, 55);
+            this.btnTaodethi.TabIndex = 5;
+            this.btnTaodethi.Text = "Tạo đề thi";
+            this.btnTaodethi.UseVisualStyleBackColor = true;
+            this.btnTaodethi.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(830, 665);
+            this.button3.Location = new System.Drawing.Point(830, 703);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(154, 55);
             this.button3.TabIndex = 6;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // FormMoDau
             // 
@@ -103,7 +105,7 @@
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(1217, 824);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnTaodethi);
             this.Controls.Add(this.btnCreateQR);
             this.Controls.Add(this.btnFormMoDau_Start);
             this.Controls.Add(this.lblWelcome);
@@ -122,7 +124,7 @@
         private System.Windows.Forms.Label lblWelcome;
         private System.Windows.Forms.Button btnFormMoDau_Start;
         private System.Windows.Forms.Button btnCreateQR;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnTaodethi;
         private System.Windows.Forms.Button button3;
     }
 }

@@ -41,3 +41,5 @@ C:\Users\ACER\Documents\Môn học\Công nghệ phần mềm\Quá trình 2\Quizz
 C:\Users\ACER\Documents\Môn học\Công nghệ phần mềm\Quá trình 2\Quizz\quizGame\quizGame\obj\Debug\quizGame.FormTaoMaQR.resources
 C:\Users\ACER\Documents\Môn học\Công nghệ phần mềm\Quá trình 2\Quizz\quizGame\quizGame\bin\Debug\QRCoder.dll
 C:\Users\ACER\Documents\Môn học\Công nghệ phần mềm\Quá trình 2\Quizz\quizGame\quizGame\obj\Debug\quizGame.csproj.Up2Date
+C:\Users\ACER\Documents\Môn học\Công nghệ phần mềm\Quá trình 2\Quizz\quizGame\quizGame\obj\Debug\quizGame.FormTaoDeThi.resources
+C:\Users\ACER\Documents\Môn học\Công nghệ phần mềm\Quá trình 2\Quizz\quizGame\quizGame\obj\Debug\quizGame.FormTaoDeThiTrucTiep.resources
