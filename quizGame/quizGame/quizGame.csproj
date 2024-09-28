@@ -76,6 +76,12 @@
     <Compile Include="FormTaoDeThiTrucTiep.Designer.cs">
       <DependentUpon>FormTaoDeThiTrucTiep.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormTaoDeThiTuFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormTaoDeThiTuFile.Designer.cs">
+      <DependentUpon>FormTaoDeThiTuFile.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormTaoMaQR.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -95,6 +101,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormTaoDeThiTrucTiep.resx">
       <DependentUpon>FormTaoDeThiTrucTiep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormTaoDeThiTuFile.resx">
+      <DependentUpon>FormTaoDeThiTuFile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormTaoMaQR.resx">
       <DependentUpon>FormTaoMaQR.cs</DependentUpon>

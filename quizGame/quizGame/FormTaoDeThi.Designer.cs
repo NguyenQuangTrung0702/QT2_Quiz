@@ -57,6 +57,7 @@
             this.btnGiantiep.TabIndex = 1;
             this.btnGiantiep.Text = "Tạo đề thi từ file .txt";
             this.btnGiantiep.UseVisualStyleBackColor = false;
+            this.btnGiantiep.Click += new System.EventHandler(this.btnGiantiep_Click);
             // 
             // lblGioithieu
             // 

@@ -22,5 +22,11 @@ namespace quizGame
             FormTaoDeThiTrucTiep form4 = new FormTaoDeThiTrucTiep();
             form4.Show();
         }
+
+        private void btnGiantiep_Click(object sender, EventArgs e)
+        {
+            FormTaoDeThiTuFile form5 = new FormTaoDeThiTuFile();
+            form5.Show();
+        }
     }
 }

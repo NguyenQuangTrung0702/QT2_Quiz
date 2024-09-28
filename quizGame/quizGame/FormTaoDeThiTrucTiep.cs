@@ -73,19 +73,19 @@ namespace quizGame
                 }
                 else if (line.StartsWith("A. "))  
                 {
-                    answerA = line.Substring(3).Trim(); 
+                    answerA = line.Substring(3).Trim();
                 }
                 else if (line.StartsWith("B. "))  
                 {
-                    answerB = line.Substring(3).Trim();  
+                    answerB = line.Substring(3).Trim();
                 }
                 else if (line.StartsWith("C. "))  
                 {
-                    answerC = line.Substring(3).Trim();  
+                    answerC = line.Substring(3).Trim();
                 }
                 else if (line.StartsWith("D. "))  
                 {
-                    answerD = line.Substring(3).Trim();  
+                    answerD = line.Substring(3).Trim(); 
                 }
 
                 if (!string.IsNullOrEmpty(question) && !string.IsNullOrEmpty(answerA) &&
@@ -99,10 +99,9 @@ namespace quizGame
                     answerC = "";
                     answerD = "";
                 }
-                else
-                {
-                    MessageBox.Show("Không được để trống đáp án!");
-                }
+                
+
+                
             }
         }
         private void FormTaoDeThiTrucTiep_Load(object sender, EventArgs e)
