@@ -32,10 +32,10 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.lblQuestion = new System.Windows.Forms.Label();
-            this.lbl1 = new System.Windows.Forms.Label();
-            this.lbl2 = new System.Windows.Forms.Label();
-            this.lbl3 = new System.Windows.Forms.Label();
-            this.lbl4 = new System.Windows.Forms.Label();
+            this.lblA = new System.Windows.Forms.Label();
+            this.lblB = new System.Windows.Forms.Label();
+            this.lblC = new System.Windows.Forms.Label();
+            this.lblD = new System.Windows.Forms.Label();
             this.btnNext = new System.Windows.Forms.Button();
             this.btnStop = new System.Windows.Forms.Button();
             this.questionTimer = new System.Windows.Forms.Timer(this.components);
@@ -53,7 +53,6 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // lblQuestion
             // 
@@ -65,48 +64,48 @@
             this.lblQuestion.TabIndex = 2;
             this.lblQuestion.Text = "Question";
             this.lblQuestion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lblQuestion.Click += new System.EventHandler(this.lblQuestion_Click);
             // 
-            // lbl1
+            // lblA
             // 
-            this.lbl1.BackColor = System.Drawing.Color.Red;
-            this.lbl1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl1.Location = new System.Drawing.Point(206, 470);
-            this.lbl1.Name = "lbl1";
-            this.lbl1.Size = new System.Drawing.Size(263, 76);
-            this.lbl1.TabIndex = 3;
-            this.lbl1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblA.BackColor = System.Drawing.Color.Red;
+            this.lblA.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblA.Location = new System.Drawing.Point(206, 470);
+            this.lblA.Name = "lblA";
+            this.lblA.Size = new System.Drawing.Size(263, 76);
+            this.lblA.TabIndex = 3;
+            this.lblA.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblA.Click += new System.EventHandler(this.lbl1_Click);
             // 
-            // lbl2
+            // lblB
             // 
-            this.lbl2.BackColor = System.Drawing.Color.Yellow;
-            this.lbl2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl2.Location = new System.Drawing.Point(749, 470);
-            this.lbl2.Name = "lbl2";
-            this.lbl2.Size = new System.Drawing.Size(263, 76);
-            this.lbl2.TabIndex = 4;
-            this.lbl2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            this.lbl2.Click += new System.EventHandler(this.lbl2_Click);
+            this.lblB.BackColor = System.Drawing.Color.Yellow;
+            this.lblB.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblB.Location = new System.Drawing.Point(749, 470);
+            this.lblB.Name = "lblB";
+            this.lblB.Size = new System.Drawing.Size(263, 76);
+            this.lblB.TabIndex = 4;
+            this.lblB.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblB.Click += new System.EventHandler(this.lbl2_Click);
             // 
-            // lbl3
+            // lblC
             // 
-            this.lbl3.BackColor = System.Drawing.Color.Lime;
-            this.lbl3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl3.Location = new System.Drawing.Point(206, 575);
-            this.lbl3.Name = "lbl3";
-            this.lbl3.Size = new System.Drawing.Size(263, 76);
-            this.lbl3.TabIndex = 5;
-            this.lbl3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblC.BackColor = System.Drawing.Color.Lime;
+            this.lblC.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblC.Location = new System.Drawing.Point(206, 575);
+            this.lblC.Name = "lblC";
+            this.lblC.Size = new System.Drawing.Size(263, 76);
+            this.lblC.TabIndex = 5;
+            this.lblC.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lbl4
+            // lblD
             // 
-            this.lbl4.BackColor = System.Drawing.Color.Cyan;
-            this.lbl4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl4.Location = new System.Drawing.Point(749, 575);
-            this.lbl4.Name = "lbl4";
-            this.lbl4.Size = new System.Drawing.Size(263, 76);
-            this.lbl4.TabIndex = 6;
-            this.lbl4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lblD.BackColor = System.Drawing.Color.Cyan;
+            this.lblD.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblD.Location = new System.Drawing.Point(749, 575);
+            this.lblD.Name = "lblD";
+            this.lblD.Size = new System.Drawing.Size(263, 76);
+            this.lblD.TabIndex = 6;
+            this.lblD.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // btnNext
             // 
@@ -158,10 +157,10 @@
             this.Controls.Add(this.lblTimer);
             this.Controls.Add(this.btnStop);
             this.Controls.Add(this.btnNext);
-            this.Controls.Add(this.lbl4);
-            this.Controls.Add(this.lbl3);
-            this.Controls.Add(this.lbl2);
-            this.Controls.Add(this.lbl1);
+            this.Controls.Add(this.lblD);
+            this.Controls.Add(this.lblC);
+            this.Controls.Add(this.lblB);
+            this.Controls.Add(this.lblA);
             this.Controls.Add(this.lblQuestion);
             this.Controls.Add(this.pictureBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -180,10 +179,10 @@
 
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label lblQuestion;
-        private System.Windows.Forms.Label lbl1;
-        private System.Windows.Forms.Label lbl2;
-        private System.Windows.Forms.Label lbl3;
-        private System.Windows.Forms.Label lbl4;
+        private System.Windows.Forms.Label lblA;
+        private System.Windows.Forms.Label lblB;
+        private System.Windows.Forms.Label lblC;
+        private System.Windows.Forms.Label lblD;
         private System.Windows.Forms.Button btnNext;
         private System.Windows.Forms.Button btnStop;
         private System.Windows.Forms.Timer questionTimer;

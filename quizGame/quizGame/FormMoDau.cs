@@ -19,14 +19,6 @@ namespace quizGame
         }
 
 
-        private void btnFormMoDau_Start_Click(object sender, EventArgs e)
-        {
-            Form1 form1 = new Form1();
-            //form1.MdiParent = this;
-            form1.Show();
-
-        }
-
         private void FormMoDau_Load(object sender, EventArgs e)
         {
 

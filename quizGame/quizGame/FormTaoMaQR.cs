@@ -18,6 +18,8 @@ namespace quizGame
             InitializeComponent();
         }
 
+        private string filePath = null;
+
         private void btnTaoQR_Click(object sender, EventArgs e)
         {
             QRCodeGenerator qRCodeGenerator = new QRCodeGenerator();
@@ -29,8 +31,20 @@ namespace quizGame
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
+            Form1 form1 = new Form1(filePath);
             form1.Show();
+        }
+
+        private void btnChonfile_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFile = new OpenFileDialog();
+            openFile.Filter = "Text files (*.txt)|*.txt|PDF files (*.pdf)|*.pdf|All files (*.*)|*.*";
+            openFile.Title = "Chọn một file";
+            if (openFile.ShowDialog() == DialogResult.OK)
+            {
+                filePath = openFile.FileName;
+                txtChonfile.Text = filePath;
+            }
         }
     }
 }

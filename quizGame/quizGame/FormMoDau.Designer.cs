@@ -30,7 +30,6 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMoDau));
             this.lblWelcome = new System.Windows.Forms.Label();
-            this.btnFormMoDau_Start = new System.Windows.Forms.Button();
             this.btnCreateQR = new System.Windows.Forms.Button();
             this.btnTaodethi = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -50,23 +49,11 @@
             this.lblWelcome.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.lblWelcome.Click += new System.EventHandler(this.lblWelcome_Click);
             // 
-            // btnFormMoDau_Start
-            // 
-            this.btnFormMoDau_Start.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnFormMoDau_Start.ForeColor = System.Drawing.Color.Black;
-            this.btnFormMoDau_Start.Location = new System.Drawing.Point(221, 703);
-            this.btnFormMoDau_Start.Name = "btnFormMoDau_Start";
-            this.btnFormMoDau_Start.Size = new System.Drawing.Size(154, 55);
-            this.btnFormMoDau_Start.TabIndex = 2;
-            this.btnFormMoDau_Start.Text = "Bắt đầu ";
-            this.btnFormMoDau_Start.UseVisualStyleBackColor = true;
-            this.btnFormMoDau_Start.Click += new System.EventHandler(this.btnFormMoDau_Start_Click);
-            // 
             // btnCreateQR
             // 
             this.btnCreateQR.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCreateQR.ForeColor = System.Drawing.Color.Black;
-            this.btnCreateQR.Location = new System.Drawing.Point(424, 703);
+            this.btnCreateQR.Location = new System.Drawing.Point(323, 703);
             this.btnCreateQR.Name = "btnCreateQR";
             this.btnCreateQR.Size = new System.Drawing.Size(154, 55);
             this.btnCreateQR.TabIndex = 4;
@@ -78,7 +65,7 @@
             // 
             this.btnTaodethi.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnTaodethi.ForeColor = System.Drawing.Color.Black;
-            this.btnTaodethi.Location = new System.Drawing.Point(627, 703);
+            this.btnTaodethi.Location = new System.Drawing.Point(526, 703);
             this.btnTaodethi.Name = "btnTaodethi";
             this.btnTaodethi.Size = new System.Drawing.Size(154, 55);
             this.btnTaodethi.TabIndex = 5;
@@ -90,7 +77,7 @@
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.Black;
-            this.button3.Location = new System.Drawing.Point(830, 703);
+            this.button3.Location = new System.Drawing.Point(729, 703);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(154, 55);
             this.button3.TabIndex = 6;
@@ -107,7 +94,6 @@
             this.Controls.Add(this.button3);
             this.Controls.Add(this.btnTaodethi);
             this.Controls.Add(this.btnCreateQR);
-            this.Controls.Add(this.btnFormMoDau_Start);
             this.Controls.Add(this.lblWelcome);
             this.ForeColor = System.Drawing.Color.Cyan;
             this.IsMdiContainer = true;
@@ -122,7 +108,6 @@
         #endregion
 
         private System.Windows.Forms.Label lblWelcome;
-        private System.Windows.Forms.Button btnFormMoDau_Start;
         private System.Windows.Forms.Button btnCreateQR;
         private System.Windows.Forms.Button btnTaodethi;
         private System.Windows.Forms.Button button3;

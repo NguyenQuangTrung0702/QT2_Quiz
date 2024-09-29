@@ -144,7 +144,6 @@ namespace quizGame
 
         private void btnThem_Click(object sender, EventArgs e)
         {
-            clearInput();
             txtCauhoi.Enabled = true;
             txtA.Enabled = true;
             txtB.Enabled = true;
